@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: 'Open Sans', Arial, sans-serif;
+     font-family: 'Open Sans';
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
 }
@@ -64,11 +64,12 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
-
+  color: white;
 }
 
 header {
-
+  font-size: 24px;
+  font-weight: 600;
 }
 
 footer {
@@ -80,6 +81,43 @@ footer {
 /*******************************************/
 #benefits {
   background-color: #f0efef;
-  font-weight: ;
+  font-weight: 300;
+  font-size: 13px;
+  color: #606161;
+}
+#benefits h1 {
+  font-weight: 600;
   font-size: 20px;
+  color: #033048;
+}
+.logo {
+  font-weight: 800;
+  font-size: 24px;
+}
+.button {
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  color: #033048;
+}
+footer .button {
+  background-color: #033048;
+  color: white;
+}
+footer .logo {
+  color: #f9e42e;
+}
+.quote {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+}
+.author {
+  font-size: 18px;
+  font-weight: 600;
+}
+.copyright {
+  font-size: 9px;
+  font-weight: 600;
 }
