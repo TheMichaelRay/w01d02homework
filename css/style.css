@@ -65,6 +65,7 @@ body {
   margin: auto;
   height: 500px;
   color: white;
+  text-align: center;
 }
 
 header {
@@ -73,7 +74,8 @@ header {
 }
 
 footer {
-
+  background-color: #121212;
+  margin-bottom: 0;
 }
 
 /******************************************
@@ -85,10 +87,14 @@ footer {
   font-size: 13px;
   color: #606161;
 }
+
 #benefits h1 {
   font-weight: 600;
   font-size: 20px;
   color: #033048;
+}
+h1 .logo {
+  text-align: left;
 }
 .logo {
   font-weight: 800;
@@ -101,6 +107,9 @@ footer {
   background-color: #f9e42e;
   color: #033048;
 }
+#sign-up {
+  background-color: #f9e42e;
+}
 #sign-up .button {
   background-color: #033048;
   color: white;
@@ -108,9 +117,10 @@ footer {
 footer .logo {
   color: #f9e42e;
 }
+
 .quote {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 100;
   font-style: italic;
 }
 .author {
